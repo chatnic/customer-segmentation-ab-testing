@@ -1,0 +1,54 @@
+{
+  "srm_p_value": 0.1970506580994919,
+  "conversion": {
+    "metric": "conversion_30d",
+    "control": 0.2053746665995672,
+    "treatment": 0.2552039346216901,
+    "abs_diff": 0.0498292680221229,
+    "rel_lift": 0.242626166348347,
+    "ci_low": 0.04159377875591923,
+    "ci_high": 0.058064757288326566,
+    "p_value": 0.0,
+    "n_control": 19871,
+    "n_treatment": 20129
+  },
+  "revenue_raw": {
+    "metric": "revenue_30d",
+    "control": 28.42993608776609,
+    "treatment": 32.09405087187639,
+    "abs_diff": 3.6641147841103,
+    "rel_lift": 0.12888227299557786,
+    "ci_low": 1.8619578869465188,
+    "ci_high": 5.4662716812740815,
+    "p_value": 6.757520253386495e-05,
+    "n_control": 19871,
+    "n_treatment": 20129
+  },
+  "revenue_cuped": {
+    "metric": "revenue_30d_cuped",
+    "control": 28.787986321788082,
+    "treatment": 31.740589885227728,
+    "abs_diff": 2.952603563439645,
+    "rel_lift": 0.10256374066723027,
+    "ci_low": 1.4001618116675931,
+    "ci_high": 4.505045315211697,
+    "p_value": 0.000193434852194585,
+    "n_control": 19871,
+    "n_treatment": 20129
+  },
+  "cuped_theta": 0.8292286036714566,
+  "cuped_variance_reduction": 0.25792904761065305,
+  "design": {
+    "baseline_conversion": 0.2053746665995672,
+    "mde_abs_at_this_sample": 0.011317707778680523,
+    "n_per_group_for_2pt_lift": 6632
+  },
+  "targeting": {
+    "segments_to_target": [
+      "Lapsing customers"
+    ],
+    "share_of_customers_targeted": 0.238125,
+    "net_profit_blanket_per_1k_customers": -1326.0331646069403,
+    "net_profit_targeted_per_1k_customers": 54.664834917717116
+  }
+}

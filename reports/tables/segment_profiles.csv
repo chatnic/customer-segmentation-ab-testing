@@ -1,0 +1,6 @@
+cluster,recency_days,orders_12m,revenue_12m,avg_order_value,discount_order_share,tenure_days,email_open_rate,return_rate,customers,share_of_customers,share_of_revenue
+New customers,36.0,1.0,54.255,44.575,0.403,80.0,0.282,0.071,6686,0.167,0.029
+Lapsing customers,140.0,1.0,79.77,52.71,0.364,376.0,0.16,0.071,9525,0.238,0.056
+VIP loyalists,9.0,13.0,1494.06,115.94,0.186,434.0,0.422,0.071,5536,0.138,0.56
+Core regulars,24.0,6.0,379.905,65.53,0.302,457.0,0.242,0.065,9968,0.249,0.246
+Deal seekers,32.0,5.0,194.3,41.08,0.774,447.0,0.271,0.135,8285,0.207,0.109
